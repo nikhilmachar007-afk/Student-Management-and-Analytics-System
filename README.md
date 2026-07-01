@@ -202,6 +202,18 @@ Project data is organized into:
 
 ---
 
+## Development Tools & AI Assistance
+
+Development Tools
+ - Git
+ - Visual Studio Code (VS Code)
+
+AI Assistance
+
+ - AI was utilized as a development assistant for syntax clarification, debugging, documentation, and conceptual guidance throughout the development process. The project's software architecture, implementation, business logic, validation, data processing, analytics, and overall development decisions were designed and implemented by the author.
+
+---
+
 ## License
 
 This project is intended for educational and portfolio purposes.
