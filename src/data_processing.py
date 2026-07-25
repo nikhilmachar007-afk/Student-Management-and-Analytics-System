@@ -22,8 +22,7 @@ def remove_columns(dataframe, columns):
     if validate_columns(dataframe,columns):
         dataframe=dataframe.drop(columns, axis=1)
     else:
-        print("Given columns does not exists in the dataframe.")
-    return dataframe
+        return dataframe
 
 
 def remove_duplicates(dataframe):

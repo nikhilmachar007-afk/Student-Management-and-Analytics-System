@@ -309,11 +309,11 @@ while True:
                                 case 1:
                                     df=analyze_extra_activities(Dataframe, 1)
                                     if df is not False:
-                                        print(f"Number of Students not in Extra Activities: {df}")
+                                        print(f"Number of Students  in Extra Activities: {df}")
                                 case 2:
                                     df=analyze_extra_activities(Dataframe, 2)
                                     if df is not False:
-                                        print(f"Number of Students in Extra Activities: {df}")
+                                        print(f"Number of Students not in Extra Activities: {df}")
                                 case 3:
                                     try:
                                         student_ids=tuple(map(int, input("Enter Student IDs: (eg: 1,2,3,..): ").strip().split(",")))
